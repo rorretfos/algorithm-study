@@ -8,6 +8,8 @@ public:
 
         stack<char> st;
         int n = s.size();
+        if(n % 2 != 0)
+            return false;
 
         for(int i = 0; i < n; i++)
         {
